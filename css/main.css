@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+.card {
+  background-color: #14253d;
+  width: 280px;
+  margin: auto;
+  position: relative;
+  top: 200px;
+  padding: 1em;
+  margin: auto;
+  color: #8bacda;
+  border-radius: 15px;
+}
+
+.card .card-header {
+  width: 100%;
+  height: 280px;
+}
+
+.card .card-header .equi-img img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1.2em;
+  border-radius: 10px;
+}
+
+.card .card-header .prev-hover {
+  background-color: rgba(0, 255, 247, 0.6);
+  height: 280px;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  margin-top: 1em;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.card .card-header .prev-hover img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card .card-header .prev-hover:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-weight: bold;
+  color: white;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+.card h3:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card p.eth-desc {
+  margin-bottom: 1.5em;
+}
+
+.card .eth-more-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.2em;
+}
+
+.card .eth-more-desc .eth-price, .card .eth-more-desc .eth-clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+
+.card .eth-more-desc .eth-price img, .card .eth-more-desc .eth-clock img {
+  margin-right: 0.5em;
+}
+
+.card .eth-more-desc .eth-price p {
+  color: #00fff7;
+}
+
+.card .eth-creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.2em;
+}
+
+.card .eth-creator img {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 1em;
+}
+
+.card .eth-creator p span {
+  color: white;
+  font-size: 14px;
+}
+
+.card .eth-creator p span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card hr {
+  border: 1px solid #2f415b;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=main.css.map */
